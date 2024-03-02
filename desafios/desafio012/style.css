@@ -8,6 +8,7 @@
 body {
     margin: 0px;
     display: block;
+    min-height: 100vh;
 
 }
 
@@ -15,43 +16,94 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 250px;
 }
 
 header > h1 {
     font-family: "Passion One", sans-serif;
     margin: 0px;
     font-size: 10vw;
-    padding: 0px;
-    margin: 0px;
     padding-top: 50px;
     
-
 }
 
 header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding-bottom: 50px;
 }
 
-section > p {
-    font-family: "Sriracha", 'cursive';
-    font-size: 32px;
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
-    padding-top: 7vh;
-    margin: 1em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: "Sriracha", 'cursive';
 }
 
 .fundoflor {
     background-image: url('imagens/background001.jpg');
-    background-position: right center;
-    padding-bottom: 50px;
-    background-size: 148vh;
+    background-position: right center;  
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 
 }
 
-.fundoflor {
+
+.fundoflor > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+.fundolivro {
+    background-image: url('imagens/background002.jpg');
+    background-position: left center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;  
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
+    
+}
+
+.fundolivro > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+
+}
+
+footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
