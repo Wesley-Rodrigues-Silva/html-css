@@ -36,10 +36,22 @@ header > p {
 }
 
 section > p {
-
     font-family: "Sriracha", 'cursive';
     font-size: 32px;
     line-height: 2em;
     padding-top: 7vh;
     margin: 1em;
+}
+
+.fundoflor {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    padding-bottom: 50px;
+    background-size: 148vh;
+
+}
+
+.fundoflor {
+    background-size: cover;
+    background-attachment: fixed;
 }
