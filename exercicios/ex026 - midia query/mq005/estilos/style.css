@@ -13,8 +13,6 @@ body, html {
 
 header {
     background-color: rgb(155, 157, 158);
-    padding-bottom: 30px;
-    margin: 0px 0px 10px;
 }
 
 header h1 {
@@ -44,7 +42,7 @@ menu > ul {
     list-style-type: none;
 }
 
-menu a {
+menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
