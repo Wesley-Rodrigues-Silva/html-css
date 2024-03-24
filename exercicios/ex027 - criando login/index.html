@@ -8,30 +8,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <main class="container">
+    <main>
+        <section id="login" class="container">
             <div id="item-img" class="imagem"></div>
             <div id="itens-form">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php">
-                    <div class="campo">
-                        <span class="material-symbols-outlined">
+                <div class="campo">
+                    <span class="material-symbols-outlined">
                             person
-                            </span>
-                        <input type="email" name="e-mail" id="iemail">
-                        <label for="iemail">e-mail</label>
-                    </div>
-                    <div class="campo">
-                        <span class="material-symbols-outlined">
-                            key
-                            </span>
-                        <input type="password" name="senha" id="isenha">
-                        <label for="isenha">senha</label>
-                    </div>
-                    <input type="submit" value="Enviar"> <br>
-                    <a href="esquemi.html">Esqueci a senha</a>
+                    </span>
+                <input placeholder="Seu e-mail" type="email" name="e-mail" id="iemail">
+                <label for="iemail">e-mail</label>
+                </div>
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                        key
+                    </span>
+                <input placeholder="Sua senha" type="password" name="senha" id="isenha">
+                <label for="isenha">senha</label>
+                </div>
+                <input type="submit" value="Entrar"> <br>
+                <a href="esquemi.html">Esqueci a senha<s id="botao" class="material-symbols-outlined">mail</s></a>
+                </div>
                 </form>
-            </div>
+        </section>
     </main>
 
 </body>
