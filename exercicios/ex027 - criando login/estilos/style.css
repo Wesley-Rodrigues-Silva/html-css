@@ -23,28 +23,36 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;   
+    flex-direction: column; 
+      
 }
+
 
 .imagem {
     background: black url(../imagens/pexels-jorge-ribeiro-20112885.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+
 }
 
 #item-img {
     width: 250px;
-    height: 200px;   
+    height: 200px; 
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease; 
+     
 }
 
 #itens-form {
     width: 250px;
     height: 320px;
     background-color: rgb(255, 255, 255);
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 0px 0px 20px 20px;
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 h1 {
